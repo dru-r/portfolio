@@ -11,7 +11,8 @@ One of the things we note immediately is that every fanfiction is behind another
 3. Comments can be paginated as well, but there's no field to view all comments on one page. The function has to be able to 'flip' through comment pages to collect all the comments. <br>
 4. Comments have a tree structure (like Reddit) - information on parents should be preserved.<br>
 <br>
-With a lot of soup wrangling, I was able to retrieve just about all the public information on each fanfiction. <br><br>
+With a lot of soup wrangling, I was able to retrieve just about all the public information on each fanfiction. <br>
+
 For each fanfiction, I retrieved:<br>
 1. Story ID <br>
 2. Story title <br>
@@ -31,6 +32,7 @@ For each fanfiction, I retrieved:<br>
 16. Hit count, kudo count, bookmark count, comment count <br>
 17. List of users who left kudos and count of guests who left kudos <br>
 <br>
+
 For each comment for each fanfiction, I managed to retrieve:<br>
 1. Comment ID <br>
 2. Comment author <br>
