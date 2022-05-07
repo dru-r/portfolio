@@ -2,7 +2,7 @@
 
 Large social media sites like Twitter and Reddit typically have some form of easy-to-use API to collect data from. Archiveofourown.org (AO3) doesn't have one. Thankfully, [scraping isn't against its TOS](https://archiveofourown.org/tos_faq). To collect my dataset, I relied on the requests and bs4 libraries (and respectful delay times between each request). I selected the Detroit: Become Human fandom due to my familairity with the fandom, and its smaller relative size (so easier testing, etc.) compared to long-running fandoms like Harry Potter.<br>
 <br>
-![image](/p1/imgs/ao3dbh-may2022capture.JPG)
+![image](/imgs/ao3dbh-may2022capture.JPG)
 <br>
 One of the things we note immediately is that every fanfiction is behind another hyperlink. So we'd have to load into every one of those links to get the story. And that's not the only thing we'd have to account for in the scrape. From trial-and-error, I realised a scrape function had to handle several things:<br>
 <br>
