@@ -24,10 +24,9 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        <a href="{{ site.github.repository_url }}">home</a>
-        <a href="https://dru-r.github.io/portfolio/about.html">about me</a>  
-        <a href="https://dru-r.github.io/portfolio/summary.html">side-project summaries</a>  
+        <p><a href="{{ site.github.repository_url }}">home</a></p>
+        <p><a href="https://dru-r.github.io/portfolio/about.html">home</a></p>
+        <p><a href="https://dru-r.github.io/portfolio/summary.html">side-project summaries</a></p>  
         {% endif %}
 
         {% if site.github.is_user_page %}
