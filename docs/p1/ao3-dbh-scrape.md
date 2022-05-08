@@ -1,6 +1,6 @@
 # Details of the scrape process
 
-Large social media sites like Twitter and Reddit typically have some form of easy-to-use API to collect data from. Archiveofourown.org (AO3) doesn't have one. Thankfully, [scraping isn't against its TOS](https://archiveofourown.org/tos_faq). To collect my dataset, I relied on the requests and bs4 libraries (and respectful delay times between each request). I selected the Detroit: Become Human fandom due to my familairity with the fandom, and its smaller relative size (so easier testing, etc.) compared to long-running fandoms like Harry Potter.<br>
+Large social media sites like Twitter and Reddit typically have some form of easy-to-use API to collect data from. Archiveofourown.org (AO3) doesn't have one. Thankfully, [scraping isn't against its TOS](https://archiveofourown.org/tos_faq). To collect my dataset, I relied on the requests and bs4 libraries (and respectful delay times between each request). I selected the Detroit: Become Human fandom due to my familiarity with the fandom, and its smaller relative size (so easier testing, etc.) compared to long-running fandoms like Harry Potter.<br>
 <br>
 ![image](/imgs/ao3dbh-may2022capture.JPG)
 <br>
