@@ -69,7 +69,7 @@ Note the contrast between RK900 and their predecessor, Connor (RK800). <br>
 <a href="https://dru-r.github.io/ao3-dbh-analysis/visuals/08_charatags/gavin_wc.png">
     <img src="https://raw.githubusercontent.com/dru-r/ao3-dbh-analysis/master/docs/visuals/08_charatags/gavin_wc.png" title="Click for larger" alt="Click for larger"/></a>
 <br>
-<small><b>[You can read a more detailed write-up of this whole analysis here](https://dru-r.github.io/ao3-dbh-analysis/dbh-charadescripts.html)</small></b>
+<b><small>[You can read a more detailed write-up of this whole analysis here](https://dru-r.github.io/ao3-dbh-analysis/dbh-charadescripts.html)</small></b>
 
 #### 2. Network analysis via community detection to identify tropes from freeform tags
 Click on any of the full networks for each rating below to access an interactive version. The interactive version shows the top 5 co-occurring tags to any tag which you click in the network. For clarity, I've also provided a link to the summary table of the clusters in each rating network. The summary table contains example tags, a link to an interactive version of said cluster, and my comments on the possible trope/theme (from my understanding as a fandom consumer/creator).<br>
