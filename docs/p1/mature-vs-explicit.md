@@ -13,6 +13,7 @@ There are [five possible author-given ratings for fanfiction on AO3](https://arc
 - Explicit: The content contains explicit adult themes, such as porn, graphic violence, etc.<br>
 - Not Rated - no rating was given by the author, but is treated like Mature and Explicit content in search functions, etc. <br>
 <br>
+
 What differentiates mature from explicit fics? Teen from mature? General audiences from teen? On the surface these seem like very trivial questions. However, I would like to emphasise that these are <b>author-given ratings</b>, there is no central authority board of fanfiction governors that assigns every fic a rating (like movies - they do that for movies, right?). <b> In other words, given this general set of guidelines, thousands of independent authors will have to self-assess their own work and decide on their own an appropriate rating for it. Arguably, if we see some clear patterning of differences between ratings, I would say we are observing pretty interesting behaviour; many independent actors coalescing together in general agreement of what an explicit fic typically stands for, what a mature fic stands for, and so on</b>.
 
 ## Methods used and possible applications
