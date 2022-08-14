@@ -8,7 +8,7 @@ I ran BERTopic with MPNet-v2 embeddings of the post text from r/FFXIV, r/Shitpos
 ## Results
 ### 1. Topics returned
 BERTopic doesn't require a topic count and automatically returns the number of topics as determined after. UMAP and HDBSCAN clustering. In this dataset, I was returned 661 topics, as shown below.<br><br>
-![image](/imgs/topic_df.jpg)<br><br>
+![image](/imgs/topic_df.PNG)<br><br>
 One of the issues I found was that a lot of posts got assigned to Topic -1 (which is the junk topic). BERTopic does allow for the calculation of probabilities for every post, which somewhat circumvents this issue. This is so as it returns probabilities for all topics for each post, making it possible to assign the highest probability topic in place of topic -1 to such posts. However, given the stochastic nature of UMAP and the sensitivity of HDBSCAN to its parameters, BERTopic also probably should be tuned further in such scenarios. While the results returned were pretty good with assigning the calculated highest probability, it made model training take much longer.<br><br>
 The other thing I noticed is that 661 topics does seem like a fairly large number for just 54562 posts. There are many small topics at the minimum size of 10 posts (this is another tunable parameter). At first glance, they do seem to make sense still at least (e.g., topic 659 is about samurai’s kaiten skill). Generally, the topics overall all do seem to make some sense (e.g., of what appears to be a topic about black mages below). <br><br>
 ![image](/imgs/topic_eg.PNG)<br><br>
