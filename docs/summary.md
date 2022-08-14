@@ -19,4 +19,4 @@ I highlight and tie together some analyses I've done before in write-ups below. 
 At the time of the pull, I noted a few shards from Pushshift were down (e.g., 20 out of 24), so there may be missing parts in the overall dataset.<br>
 #### Content
 I’ve not posted this set of analyses elsewhere, so I will keep the details contained within each page.
-1. Application of BERTopic to posts <br>
+1. [Application of BERTopic to posts](/p2/bertopic.md)<br>
