@@ -49,7 +49,7 @@ Finally, looking at overall frequency across the top 50 topics in the three subr
 ### 4. Topic discussion over time
 Lastly, BERTopic also allows us to see the change in topic terms and topic usage over time; similar to dynamic topic modeling. Again, only the top 50 topics are visualised. We can start by examining the non-normalised version. <br><br>
 ![image](/imgs/topicsovertime_notnorm.PNG)<br>
-[Interactive version here](/imgs/ topicsovertime_notnorm.html) <br><br>
+[Interactive version here](/imgs/topicsovertime_notnorm.html) <br><br>
 Recall that the dataset spans just from before Endwalker’s (patch 6.0) release to sometime in mid-May 2022 (patch 6.11). We see several peaks in the non-normalised chart that fits this sequence of events: <br>
 1. Topic 8 (8_code_access_registration_endwalker) about the registration code for Endwalker was the most frequent topic at release, and dips quickly.<br>
 2. The next peak is Topic 28 (28_grapes_grape_corvos_wine), which is likely about the low poly count of the grapes in a certain quest zone – this was picked up by players and subsequently memed on for a while. <br>
